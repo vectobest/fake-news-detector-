@@ -3,7 +3,11 @@
 A machine learning web application that detects whether a news article is **real** or **fake** using Natural Language Processing (NLP) and Logistic Regression.
 
 ---
+## 📈 Dataset Source
 
+This project uses a labeled dataset of real and fake news articles.
+
+👉 [Fake and Real News Dataset – by Clément Bisaillon (Kaggle)](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset)
 ## 🚀 Live Demo
 
 👉 [Click Here to Try the App](https://sseuygoshfjwkqy6y7zhgl.streamlit.app/)
