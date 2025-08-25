@@ -1,5 +1,11 @@
 import streamlit as st
 import joblib
+import json
+
+
+if st.query_params.get("endpoint") == "health":
+    st.write(json.dumps({"status": "ok"}))
+    st.stop()
 
 model = joblib.load('model.pkl')
 vectorizer = joblib.load('vectorizer.pkl')
